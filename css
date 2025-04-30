@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #0f0f0f;
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+header h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+header p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.video-cell {
+  background-color: #181818;
+  padding: 0.5rem;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+.video-cell iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 6px;
+}
+
+.video-caption {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+}
